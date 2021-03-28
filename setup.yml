@@ -1,0 +1,9 @@
+- hosts: webserver
+  become : true
+  roles :
+  - role: "myapache"
+
+- hosts: LB
+  become : true
+  roles :
+  - role: "mylb"

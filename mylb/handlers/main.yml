@@ -1,0 +1,7 @@
+---
+# handlers file for mylb
+
+- name : haproxy
+  service :
+    name : "{{ service }}"
+    state : restarted

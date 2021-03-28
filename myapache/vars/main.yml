@@ -1,0 +1,13 @@
+---
+# vars file for myapache
+package : 
+  -  "httpd"
+  -  "php"  
+#mount_dir : "dvd_apache"---> You can use this for VMs
+#yum_repo : --> Default repos
+#  - "AppStream"
+#  - "BaseOS"
+web_page : "/files/index.php"
+document_root : "/var/www/html/"
+service : "httpd"
+

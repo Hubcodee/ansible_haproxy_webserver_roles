@@ -1,0 +1,6 @@
+[webserver]
+65.0.127.145 ansible_user=ec2-user ansible_ssh_private_key_file=/root/hadoop.pem ansible_connection=ssh
+13.233.131.71 ansible_user=ec2-user ansible_ssh_private_key_file=/root/hadoop.pem ansible_connection=ssh
+
+[LB]
+65.2.40.196  ansible_user=ec2-user ansible_ssh_private_key_file=/root/hadoop.pem ansible_connection=ssh
